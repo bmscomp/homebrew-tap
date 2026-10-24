@@ -1,26 +1,26 @@
 class Kates < Formula
   desc "CLI for Kafka Advanced Testing & Engineering Suite"
   homepage "https://github.com/bmscomp/kates"
-  version "1.29.2"
+  version "1.29.3"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bmscomp/kates/releases/download/v1.29.2/kates-darwin-arm64.tar.gz"
-      sha256 "a05edda1d23099a2fabb98b6c417520b444a64c944bc620b59a14c743ef1d116"
+      url "https://github.com/bmscomp/kates/releases/download/v1.29.3/kates-darwin-arm64.tar.gz"
+      sha256 "5812a983df360673caec744f8561eeed0ed02ecfadfb55b3e75c667401088c64"
     else
-      url "https://github.com/bmscomp/kates/releases/download/v1.29.2/kates-darwin-amd64.tar.gz"
-      sha256 "341b5d1ebf4029a74eaa062a661e835aad44776cb7cf2ad4cac84970888f04c3"
+      url "https://github.com/bmscomp/kates/releases/download/v1.29.3/kates-darwin-amd64.tar.gz"
+      sha256 "681a71b2810c5acbf71a27ec3e72b172817a36acea3db02bafd8c694a661d7ab"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bmscomp/kates/releases/download/v1.29.2/kates-linux-arm64.tar.gz"
-      sha256 "cc9d4ef074050336fea739b7e2b2ac50acec9e72b823711d48af0f77c16fbd76"
+      url "https://github.com/bmscomp/kates/releases/download/v1.29.3/kates-linux-arm64.tar.gz"
+      sha256 "70ecafec7f6262933948295c313253300a5e2f3baff248d0c148e7dd8193c0f0"
     else
-      url "https://github.com/bmscomp/kates/releases/download/v1.29.2/kates-linux-amd64.tar.gz"
-      sha256 "67435b7acfa5037ebf8686922440c37d86f0a064214ec1274195b6d44d3c5588"
+      url "https://github.com/bmscomp/kates/releases/download/v1.29.3/kates-linux-amd64.tar.gz"
+      sha256 "bb1ef2556021624cecc0bf057594ea6ca5c0cb9cbadfff502d415958fa93d88c"
     end
   end
 
