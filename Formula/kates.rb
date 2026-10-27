@@ -1,7 +1,7 @@
 class Kates < Formula
   desc "CLI for Kafka Advanced Testing & Engineering Suite"
   homepage "https://github.com/bmscomp/kates"
-  version "1.31.0"
+  version "1.32.0"
   license "Apache-2.0"
 
   # kates deploy checks the cosign signature of every chart it pulls.
@@ -9,21 +9,21 @@ class Kates < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bmscomp/kates/releases/download/v1.31.0/kates-darwin-arm64.tar.gz"
-      sha256 "62882bd3ac5d33b527d0e3c83c8c3c721b85bdb2da03520c1061d8b67a3619d3"
+      url "https://github.com/bmscomp/kates/releases/download/v1.32.0/kates-darwin-arm64.tar.gz"
+      sha256 "7ee8fe3de0ab0c20d013a7b1f8462fe2391ad5e7109c7ec3b34c554791ab052e"
     else
-      url "https://github.com/bmscomp/kates/releases/download/v1.31.0/kates-darwin-amd64.tar.gz"
-      sha256 "89fc503cd03174ebd8c70816b5225f746c7e9360e4d090b5bf3dcdce287bb77f"
+      url "https://github.com/bmscomp/kates/releases/download/v1.32.0/kates-darwin-amd64.tar.gz"
+      sha256 "d2cc2b4e663d57688a71728343bff45d23784112580b5b3f56c4774fed6f692b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bmscomp/kates/releases/download/v1.31.0/kates-linux-arm64.tar.gz"
-      sha256 "640067c1631b680762b8d59f194e8ba8c8244cb1fcc5054548d148947ea4ed6b"
+      url "https://github.com/bmscomp/kates/releases/download/v1.32.0/kates-linux-arm64.tar.gz"
+      sha256 "d2de2f2741b5192da698d6887a2ea3aba43cee20cb270eb53f710e4b54bcdbd7"
     else
-      url "https://github.com/bmscomp/kates/releases/download/v1.31.0/kates-linux-amd64.tar.gz"
-      sha256 "95a22e0c015c73035f7f55f6aa9c5254262d53bf94e6b12c25f9fd9b4485f26a"
+      url "https://github.com/bmscomp/kates/releases/download/v1.32.0/kates-linux-amd64.tar.gz"
+      sha256 "08198dbf70e9fac7015d212b5f14911d327e1966f8320f8016808af0b0f1bc25"
     end
   end
 
